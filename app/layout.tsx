@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Célébrez-vous — Best-sellers 11.11 | Singles' Day (11.11)",
-  description: "Les cadeaux solo les plus offerts (et s'offrir)",
+  title: "Best-sellers Thanksgiving 2026 | Thanksgiving 2026",
+  description: "Tout pour un repas de famille inoubliable",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

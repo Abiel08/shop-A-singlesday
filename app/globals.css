@@ -4,4 +4,10 @@
 
 html{scroll-behavior:smooth}body{margin:0}
 
-@keyframes float-heart{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-25px) scale(1.1)}}@keyframes heart-fall{0%{transform:translateY(-10vh);opacity:0.3}100%{transform:translateY(110vh);opacity:0}}.decor-layer::before{content:"💖";position:fixed;font-size:2.2rem;opacity:0.18;animation:float-heart 5s ease-in-out infinite;top:15%;left:8%;z-index:0}.decor-layer::after{content:"💕";position:fixed;font-size:1.6rem;opacity:0.15;animation:float-heart 6.5s ease-in-out infinite 1s;top:40%;right:12%;z-index:0}.extra-decors span{position:fixed;opacity:0.1;font-size:1.4rem;z-index:0;pointer-events:none;animation:heart-fall 15s linear infinite}
+
+@keyframes leaf-fall{0%{transform:translateY(-10vh) rotate(0deg);opacity:0.5}100%{transform:translateY(110vh) rotate(360deg);opacity:0.1}}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.decor-layer::before{content:"🦃";position:fixed;font-size:2.2rem;opacity:0.18;animation:sway 5s ease-in-out infinite;top:10%;left:5%;z-index:0;pointer-events:none}
+.decor-layer::after{content:"🍁";position:fixed;font-size:1.8rem;opacity:0.2;animation:sway 4s ease-in-out infinite 0.5s;top:22%;right:8%;z-index:0;pointer-events:none}
+.extra-decors span{position:fixed;opacity:0.15;font-size:1.4rem;z-index:0;pointer-events:none;animation:leaf-fall 12s linear infinite}
+

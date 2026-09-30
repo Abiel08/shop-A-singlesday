@@ -1,25 +1,18 @@
-# A-SinglesDay — Catalogue Singles' Day (11.11) + Panier
+# A-Thanksgiving — Thanksgiving 2026
 
 **Boutique :** AuraGlow
-**Événement :** Singles' Day (11.11) (11 Novembre 2026)
+**Événement :** Thanksgiving (26 Novembre 2026)
 
-## Catalogue (8 produits)
+## Catalogue
 
-- 🧴 **Gourde Isotherme Gravée** — 27.9€
-- 🎁 **Coffret Self-Care Premium** — 39.9€
-- 💖 **Bracelet Personnalisé Acier** — 24.9€
-- 🎧 **Casque Bluetooth Noise-Cancel** — 49.9€
-- 🌸 **Diffuseur d'Huiles Essentielles** — 29.9€
-- 📓 **Journal & Stylo Luxe** — 19.9€
-- 💡 **Lampe de Lecture Connectée** — 34.9€
-- 🥿 **Chaussons Mémoire de Forme** — 22.9€
-
-## Panier fonctionnel
-
-- Clic **Ajouter** → produit dans le panier
-- Compteur dans le header
-- Tiroir panier (quantités, supprimer, total)
-- Offres pack ajoutables aussi
+- 🍂 Centre de Table Automne LED — 29.99€
+- 🍁 Guirlande Feuilles d'Érable — 19.9€
+- 🎃 Set 6 Photophores Citrouille — 24.9€
+- 🧺 Nappe Automne + Chemin de Table — 34.9€
+- 🧴 Gourde Isotherme Gravée Famille — 27.9€
+- 🥧 Coffret Épices Thanksgiving — 22.9€
+- 🦃 Coussins Automne x2 — 29.9€
+- ✨ Projecteur Feuilles d'Automne — 34.9€
 
 ## Lancer
 
@@ -27,5 +20,3 @@
 npm install
 npm run dev
 ```
-
-→ http://localhost:3000
